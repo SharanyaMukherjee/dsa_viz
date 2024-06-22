@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Visualization</title>
+    <link rel="stylesheet" href="stack.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stack-container">
+            <div class="controls">
+                <input type="text" id="elementInput" placeholder="Enter element">
+                <button onclick="pushElement()">Push</button>
+                <button onclick="popElement()">Pop</button>
+            </div>
+            <div id="stack" class="stack"></div>
+        </div>
+        <div class="info-container">
+            <div id="topElement">Top Element: None</div>
+            <div id="poppedElement">Last Popped Element: None</div>
+        </div>
+    </div>
+    <script src="stack.js"></script>
+</body>
+</html>

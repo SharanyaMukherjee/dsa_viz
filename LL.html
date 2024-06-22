@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked List Visualization</title>
+    <link rel="stylesheet" href="LL.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Linked List Visualization</h1>
+        <div class="input-container">
+            <input type="text" id="nodeValue" placeholder="Enter node value">
+            <input type="number" id="nodePosition" placeholder="Position (optional)">
+            <button class="circle-button" onclick="addNode()">Add Node</button>
+            <input type="number" id="deletePosition" placeholder="Delete at position">
+            <button class="circle-button" onclick="deleteNode()">Delete Node</button>
+        </div>
+    </div>
+    <div class="container2">
+        <h1> Linked list</h1>
+        <div id="linkedList" class="linked-list"></div>
+        <h2>Deleted Nodes</h2>
+        <div id="deletedNodes" class="deleted-nodes"></div>
+    </div>
+    <script src="LL.js"></script>
+</body>
+</html>

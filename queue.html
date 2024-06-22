@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue Visualizations</title>
+    <link rel="stylesheet" href="queue.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Queue Visualizations</h1>
+        
+        <div class="queue" id="normal-queue">
+            <h2>Queue</h2>
+            <input type="number" id="normal-queue-size" placeholder="Enter queue size">
+            <button onclick="initializeNormalQueue()">Initialize Queue</button>
+            <div class="queue-display" id="normal-queue-display"></div>
+            <input type="text" id="normal-queue-input" placeholder="Enter data">
+            <button onclick="enqueueNormal()">Enqueue</button>
+            <button onclick="dequeueNormal()">Dequeue</button>
+        </div>
+        
+        <!-- <div class="queue" id="deque">
+            <h2>Deque</h2>
+            <input type="number" id="deque-size" placeholder="Enter queue size">
+            <button onclick="initializeDeque()">Initialize Deque</button>
+            <div class="queue-display" id="deque-display"></div>
+            <input type="text" id="deque-input" placeholder="Enter data">
+            <button onclick="enqueueFront()">Enqueue Front</button>
+            <button onclick="enqueueRear()">Enqueue Rear</button>
+            <button onclick="dequeueFront()">Dequeue Front</button>
+            <button onclick="dequeueRear()">Dequeue Rear</button>
+        </div> -->
+        
+        <!-- <div class="queue" id="priority-queue">
+            <h2>Priority Queue</h2>
+            <input type="number" id="priority-queue-size" placeholder="Enter queue size">
+            <button onclick="initializePriorityQueue()">Initialize Queue</button>
+            <div class="queue-display" id="priority-queue-display"></div>
+            <input type="text" id="priority-queue-input" placeholder="Enter data">
+            <input type="number" id="priority-queue-index" placeholder="Index" min="0">
+            <button onclick="enqueuePriority()">Enqueue</button>
+            <button onclick="dequeuePriority()">Dequeue</button>
+        </div> -->
+        
+    </div>
+    <script src="queue1.js"></script>
+</body>
+</html>
